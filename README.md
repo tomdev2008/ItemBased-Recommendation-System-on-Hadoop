@@ -31,7 +31,7 @@ Reduce Output: (songOne, songTwo@cooccurrence count)
 consider the cooccurrence count of each item pair as the numerator of the 
 cosine similarity of these two items. In order to get the accurate cosine similarity, 
 we have to divide the numerator by denominator, which has been generated in stage two.  
-**Stage Six:** Generate item-item similarity vector This stage summarise outcomes from stage five into item-item similar- ity vectors.  
+**Stage Six:** Generate item-item similarity vector This stage summarise outcomes from stage five into item-item similarity vectors.  
 Output: (SongOne, {SongTwo: similarity, SongThree: sim- ilarity, ...})  
 **Stage Seven:** Generate target User-Item Preference vector  
 **Stage Eight:** Generate (ItemID, similarity vector, userID, user-item prefer value) tuples Based 
